@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)  # Enable Cross-Origin Resource Sharing
 
 # Initialize LangChain with Ollama
-ollama_llm = Ollama(model="llama3.1:latest")  # Replace with your Ollama model
+ollama_llm = Ollama(model="llama3.1:latest" ,  endpoint = "https://e853-39-58-191-253.ngrok-free.app")  # Replace with your Ollama model
 prompt_template = PromptTemplate(
     input_variables=["question"],
     template="You are a helpful assistant. Answer the following question: {question}"
