@@ -9,6 +9,6 @@ pydub
 torch
 transformers
 datasets
-string
+strings
 soundfile
 random
