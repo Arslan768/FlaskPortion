@@ -9,6 +9,4 @@ pydub==0.25.1
 torch==2.4.1
 transformers==4.44.2
 datasets==3.0.1
-string
 soundfile==0.12.1
-random
