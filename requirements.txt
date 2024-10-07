@@ -1,3 +1,13 @@
 flask
 langchain
 os
+subprocess
+shutil
+pyttsx3
+pydub
+torch
+transformers
+datasets
+string
+soundfile
+random
