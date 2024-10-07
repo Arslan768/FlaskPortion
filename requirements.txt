@@ -10,3 +10,4 @@ torch==2.4.1
 transformers==4.44.2
 datasets==3.0.1
 soundfile==0.12.1
+gunicorn
