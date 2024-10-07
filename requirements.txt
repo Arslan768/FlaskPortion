@@ -3,7 +3,7 @@ flask-cors==5.0.0
 langchain==0.3.2
 ollama==0.3.3
 subprocess.run==0.0.8
-pytest-shutil==8.3.3
+pytest-shutil==1.7.0
 pyttsx3==2.98
 pydub==0.25.1
 torch==2.4.1
