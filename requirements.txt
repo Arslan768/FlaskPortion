@@ -2,8 +2,7 @@ Flask
 flask-cors
 langchain
 ollama
-os
-subprocess
+subprocess.run
 shutil
 pyttsx3
 pydub
