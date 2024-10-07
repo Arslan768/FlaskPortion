@@ -7,7 +7,7 @@ from converter import text_to_ogg
 import os
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://react-portion.vercel.app"}})  # Enable Cross-Origin Resource Sharing
+CORS(app, resources={r"/*": {"origins": *}})  # Enable Cross-Origin Resource Sharing
 
 # Initialize LangChain with Ollama
 ollama_llm = Ollama(model="llama3.1:latest")  # Replace with your Ollama model
