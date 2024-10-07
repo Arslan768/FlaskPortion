@@ -23,6 +23,7 @@ def get_ollama_response(question):
 
 @app.route('/api/process', methods=['POST' , 'GET'])
 def process_question():
+    print("Request Received")
     # if request.method == 'POST':    
     data = request.get_json()  # Get the JSON data from the request
     user_question = data.get('question')
